@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+graphene = "*"
+graphene-sqlalchemy = "==3.0.0b3"
+sqlalchemy = "*"
+databases = "*"
+jinja2 = "*"
+aiofiles = "*"
+python-multipart = "*"
+bcrypt = "*"
+starlette = "*"
+starlette-graphene3 = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+isort = "*"
+
+[requires]
+python_version = "3.11"
